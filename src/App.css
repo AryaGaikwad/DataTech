@@ -13,19 +13,28 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.App-title {
+
+  margin-top: 40px;
+  font-family: 'Special Elite'; 
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 1.5cm;
   color: white;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+
+
+body .dark{
+  background-color: #221045;
+  
+  padding: 40px;
+  font-family: Arial;
+  text-align: center;
 }
 
 @keyframes App-logo-spin {
